@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html"></i>EJERCICIO 2.13</a></li>
+            <li><a href="2.html"></i> EJERCICIO 2.19</a></li>
+            <li><a href="3.html"></i> EJERCICIO 2.21</a></li>
+            <li><a href="4.html"></i> EJERCICIO 2.24</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Área de Triángulo</h1>
+        <div id="tabla"></div>
+        <form id="formulario">
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-sm-6">
+                    <input class="form-control" type="number" id="ladoA" name="ladoA" placeholder="lado A" required>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-sm-6">
+                    <input class="form-control" type="number" id="ladoB" name="ladoB" placeholder="lado B" required>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-sm-6">
+                    <input class="form-control" type="number" id="ladoC" name="ladoC" placeholder="lado C" required>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" class="btn btn-primary">Resultado</button>
+                </div>
+            </div>
+            <span class="text-danger" id="error"></span>
+        </form>
+    </div>
+    
+    <script src="1.js"></script>
+</body>
+</html>
